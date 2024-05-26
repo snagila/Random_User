@@ -52,3 +52,7 @@
 .header i {
   right: 15px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}

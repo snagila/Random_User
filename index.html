@@ -104,7 +104,80 @@
               />
             </div>
             <!-- spinner -->
+            <div class="showSpinner w-25 rounded m-auto p-3">
+              <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
             <!-- contact list -->
+            <div id="list" class="bg-light pt-2">
+              <div class="p-2"><span id="userCount">10</span> Contacts</div>
+
+              <!-- accordians -->
+              <div class="accordion mt-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      <img
+                        src="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                        alt=""
+                        width="50px"
+                        class="rounded-circle"
+                      />
+                      <div class="ms-2">
+                        <div class="fw-bolder">sachin nagila</div>
+                        <small>1 George street, Sydney</small>
+                      </div>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div
+                      class="accordion-body d-flex flex-column align-items-center"
+                    >
+                      <img
+                        src="https://randomuser.me/api/portraits/thumb/men/75.jpg"
+                        alt=""
+                        width="150px"
+                        class="rounded-circle"
+                      />
+                      <div>
+                        <div class="fw-bolder">
+                          <i class="bi bi-person-circle"></i>
+                        </div>
+                        Sachin Nagila
+                      </div>
+                      <div>
+                        <a href="tel:12345645">
+                          <i class="bi bi-phone-fill"></i>123234
+                        </a>
+                      </div>
+
+                      <div>
+                        <a href="mailto:dkfjalks@fksj.com">
+                          <i class="bi bi-envelope-at-fill"></i>123wederfr
+                        </a>
+                      </div>
+                      <div>
+                        <a href="" target="_blank">
+                          <i class="bi bi-globe-asia-australia"></i>dfjgdskjf
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </main>
       </div>

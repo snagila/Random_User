@@ -1,16 +1,20 @@
 .wrapper {
-  background: url(./assets/annie-spratt-yI3weKNBRTc-unsplash.jpg) no-repeat
-    center;
+  background: url(./assets/deskwhite.jpg) no-repeat center;
   background-size: cover;
 }
 /* phone layout */
 .phone {
-  background: linear-gradient(rgb(84, 77, 77), black);
+  background: url(./assets/applelogo.jpg) no-repeat center;
+  /* background: linear-gradient(rgb(84, 77, 77), black); */
   background-size: cover;
   overflow-y: scroll;
 }
 .phone::-webkit-scrollbar {
   display: none;
+}
+.displayBar {
+  top: 0;
+  position: sticky;
 }
 .slider {
   width: 100%;

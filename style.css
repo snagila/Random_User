@@ -1,0 +1,10 @@
+.wrapper {
+  background: url(./assets/annie-spratt-yI3weKNBRTc-unsplash.jpg) no-repeat
+    center;
+  background-size: cover;
+}
+/* phone layout */
+.phone {
+  background: linear-gradient(rgb(84, 77, 77), black);
+  background-size: cover;
+}
